@@ -90,9 +90,9 @@ class DataGenerator {
                 new ArrayList<>(Arrays.asList(directors.get(2)))));
 
 
-//        directorRepository.saveAll(directors);
-//        genreRepository.saveAll(genres);
-//        movieRepository.saveAll(movies);
+        directorRepository.saveAll(directors);
+        genreRepository.saveAll(genres);
+        movieRepository.saveAll(movies);
     }
 
     private Movie createMovie(String name, String description, Fee4K fee4K, Money price,
